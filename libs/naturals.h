@@ -31,7 +31,7 @@ void print_natural(int* num); // Outputs string representation to stdout
 
 // For Pozdnyakov S.N.
 int  COM_NN_D(natural *, natural *);
-int NZER_N_B(int *);
+int NZER_N_B(natural *);
 int *ADD_1N_N(int *);
 int* ADD_NN_N(int *, int *);
 int* SUB_NN_N(int *, int *);
