@@ -20,13 +20,17 @@
 #include "src/naturals/SUB_NDN_N.c"
 #include "src/naturals/SUB_NN_N.c"
 
+struct natural {
+    int n;
+    int number[400];
+};
 
 // For debugging and testing
 char *str_repr(int *num); // String representation of natural, e.g. [3, 1, 2, 3] is represented as "3123"
 void print_natural(int* num); // Outputs string representation to stdout
 
 // For Pozdnyakov S.N.
-int  COM_NN_D(int *, int *);
+int  COM_NN_D(natural *, natural *);
 int NZER_N_B(int *);
 int *ADD_1N_N(int *);
 int* ADD_NN_N(int *, int *);
